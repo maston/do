@@ -1,0 +1,227 @@
+/* Sarah Maston - CSCIE-12 - Final Project: DebuggingObesity.com; - CSS */
+
+/* begin general styles for site */
+footer { 
+	background-color:#35324E; /* dark purpley blue */
+	border-radius:4px;
+	margin-top: 10px;
+}
+
+footer #footer-copywrite {
+	color: #A79560; /* beige */
+	text-align: center;		
+}
+
+.breadcrumb {
+	background-color: #B5BBBA; /*light gray teal like main background*/ 
+}
+
+.clear-me {
+	clear:both;
+	visibility: hidden;	
+	margin-top: 5px;
+	margin-bottom: 5px;	
+}
+
+span.big-letter {
+	font-size: 150%;
+}
+/* end general styles for site */
+
+/* begin home page */
+.intro-bubble {
+	background-color: #A79560; /* beige */
+	border-radius:4px;		
+	padding:10px;
+	height: 225px;
+	margin-bottom: 10px;
+}
+
+.intro-bubble h4 {
+	margin: 0px 0px 10px;
+}
+
+#intro-bubble-maston p {
+	font-size: 125%;
+}
+
+#intro-bubble-maston p img {
+	float:left;
+	padding-right: 20px;
+	padding-bottom: 10px;
+}
+
+#intro-bubble-purpose {
+	clear:left;
+	background-color: #B5BBBA; /*light gray teal like main background*/ 
+	color: #5A5965; /* steel purple like header */
+}
+
+#goal-list ul {
+	padding-left:25px;
+}
+/* end home page */
+
+/* begin concept - intestinal villi */
+.separator {
+	background-color: black;
+	height:3px;
+}
+
+.book-img {
+	float:left;
+	padding-right: 10px;
+}
+.info-box {
+	background-color: #B5BBBA; /*light gray teal like main background*/ 
+	border-radius:4px;
+	padding: 10px;
+	color:#35324E; /* dark dusty purple */
+}
+
+.info-box a {
+	color:#A79560; /* beige */
+}
+
+.villi-img {
+	border-radius:15px; 
+	border: thin outset;
+}
+
+#villi-fingers-alone-img, #fingers-with-water-img, #villi-with-deposits-img {
+	float: left;
+	margin-right:30px;
+	margin-left: 10px;
+}
+#villi-alone-img, #villi-with-chyme-img, #gluey-fingers-img {
+	float:right;
+	margin-left: 20px;
+  	margin-right: 70px;
+}
+
+#villi-compared-img {
+	float:left;
+	border: none;
+	margin-right: 15px;
+}
+/* end concept - intestinal villi */
+
+/* begin tools page */
+h4.quote {
+	margin-top: 10px;
+	font-style: italic;
+	margin-bottom: 20px;
+}
+
+.reference {
+	text-align: center;
+	font-size: 65%;
+}
+
+#lmg-logo {
+	background-color: #709EAE; /* lmg blue */
+	border-radius:4px;
+	padding: 5px;
+	float:left;
+	margin-right:10px;
+}
+
+
+#nutrition-graph img {
+	border: thin solid black;
+	background-color: #8A8240; /* olive green */
+	padding: 5px;
+	border-bottom-left-radius: 25%;
+	border-bottom-right-radius: 25%;	
+	display: block;
+	margin:auto;
+}
+
+#nutrition-graph-img-section {
+	float:left;
+	border-radius: 4px;
+	background-color: #2F5054; /* teal */
+	color:#9F9969; /* beige */
+}
+
+#nutrition-graph-img-section h4 {	
+	text-align: center;
+}
+
+/* begin education tab */
+span.attention-text {
+	font-style: italic;
+	font-weight: bold;
+}
+
+.side-nav {
+	background-color: #9F9969; /* beige */
+	border-radius: 4px;
+	color: #35324E; /* dark dusty purple */
+}
+
+.side-nav .selected {
+ 	color:white !important; /*use of !important makes it happen*/
+ }
+
+.education-content {
+	background-color: #B5BBBA; /*light gray teal like main background*/
+	padding: 10px;
+	border-radius: 4px;
+}
+
+#education-tab ul {
+	list-style-type: none;
+	padding:0;
+}
+
+#education-tab ul li {
+	font-size:12px;
+}
+
+#education-tab ul li a {
+	text-decoration: none;
+	display: block;
+	padding-left:5px;
+}
+
+#education-tab ul li a:link, 
+#education-tab ul li a:visited, 
+#education-tab ul li a:active {
+  color: #5A5966; /*dark gray*/
+}
+
+#education-tab ul li a:hover {
+  color:#fff; /* white */
+}
+
+#education-tab img {
+	float:left;
+	padding-right: 10px;
+}
+
+#education-tab iframe {
+	margin: 0px auto;
+	display: block;
+	padding-bottom: 10px;
+}
+/* end education tab */
+
+/* Overloading the Bootstrap - lavish style to change the tabs a bit, giving them shading */
+.nav-tabs {
+  border-bottom: 1px solid #fff;
+}
+
+.nav-tabs > li > a {
+  border: 1px solid #fff;
+}
+
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+  color: #617992;
+  background-color: #B5BBBA;
+  border: 1px solid #dddddd;
+  border-bottom-color: transparent;
+  cursor: default;
+}

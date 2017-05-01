@@ -1,0 +1,123 @@
+/* Sarah Maston - CSCIE-12 - Final Project: DebuggingObesity.com; - CSS */
+
+/* begin general styles for site */
+.row {
+     margin-right:0px; 
+     margin-left: 0px; 
+}
+#main-wrapper {
+  padding: 0 0 150px;
+  position: relative;
+}
+
+.navbar {
+	background-color: #CED2D6;
+}
+
+footer {
+  bottom: 0;
+  height: 100px;
+  left: 0;
+  position: absolute;
+  width: 100%;
+}
+
+/*footer { 
+
+  bottom: 0;
+  height: 100px;
+  left: 0;
+  position: absolute;
+  width: 100%;
+}*/
+
+footer #footer-copywrite {
+	color: #779B90; /* beige */
+	text-align: center;		
+}
+
+footer #disclaimer {
+	padding-top: 15px;
+	padding-bottom: 10px;
+	    padding-left: 1em;
+	    padding-right: 1em;
+	font-style: italic;
+	    background-color: #FFEBE1;
+	        border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    font-size: 75%;
+}
+
+body {
+	background: #F4F5F4;
+}
+main {
+	    padding-bottom: 2em;
+}
+
+.breadcrumb {
+	background-color: #cfd8d5; /*light gray teal like main background*/ 
+}
+
+#maston-pic {
+	float: left;
+    padding-right: 1.5em;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+#intro-bubble {
+	background-color: #cfd8d5;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.intro-text {
+	    padding-left: 1em;
+	    padding-right: 1em;
+}
+
+#cta {
+	text-align: center;
+	    margin-top: .5em;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #778798;
+    border-color: #000000;
+}
+
+.clear-me {
+	clear:both;
+	visibility: hidden;	
+	margin-top: 5px;
+	margin-bottom: 5px;	
+}
+
+span.big-letter {
+	font-size: 150%;
+}
+/* end general styles for site */
+
+/* begin bile page */
+.drawing {
+	float: right;
+}
+
+.linkedin-logo {
+	padding-left:1em;
+
+}
+#lmg-logo {
+	background-color: #709EAE; /* lmg blue */
+	border-radius:4px;
+	padding: 5px;
+	float:left;
+	margin-right:10px;
+}
